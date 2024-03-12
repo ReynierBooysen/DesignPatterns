@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.Simple", "Singlet
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{EDC93B7A-47F1-45E3-8A3F-020A18DA2D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.ThreadSafe", "Singleton\Singleton.ThreadSafe\Singleton.ThreadSafe.csproj", "{0061D56A-960E-4C15-86C1-745B2A951E52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.ThreadSafe", "Singleton\Singleton.ThreadSafe\Singleton.ThreadSafe.csproj", "{0061D56A-960E-4C15-86C1-745B2A951E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.IoC", "Singleton\Singleton.IoC\Singleton.IoC.csproj", "{BBEC222C-118B-49FE-BF13-75A6A2194687}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{0061D56A-960E-4C15-86C1-745B2A951E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0061D56A-960E-4C15-86C1-745B2A951E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0061D56A-960E-4C15-86C1-745B2A951E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBEC222C-118B-49FE-BF13-75A6A2194687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEC222C-118B-49FE-BF13-75A6A2194687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEC222C-118B-49FE-BF13-75A6A2194687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEC222C-118B-49FE-BF13-75A6A2194687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{29D3103B-ADA0-4EFD-92B8-13A31F9BC39A} = {EDC93B7A-47F1-45E3-8A3F-020A18DA2D74}
 		{0061D56A-960E-4C15-86C1-745B2A951E52} = {EDC93B7A-47F1-45E3-8A3F-020A18DA2D74}
+		{BBEC222C-118B-49FE-BF13-75A6A2194687} = {EDC93B7A-47F1-45E3-8A3F-020A18DA2D74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {10BA367D-D489-4903-997A-5BB516A11155}
