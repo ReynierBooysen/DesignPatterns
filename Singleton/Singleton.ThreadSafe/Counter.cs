@@ -1,7 +1,7 @@
 ﻿namespace Singleton.ThreadSafe;
 
 /// <summary>
-/// Simple singleton class
+/// Thread safe singleton class
 /// </summary>
 public class Counter
 {
